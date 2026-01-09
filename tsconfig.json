@@ -1,0 +1,3 @@
+{
+  "extends": "@hono-orpc-next-drizzle-better_auth/config/tsconfig.base.json"
+}

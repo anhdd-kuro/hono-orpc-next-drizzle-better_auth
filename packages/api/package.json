@@ -1,0 +1,30 @@
+{
+  "name": "@hono-orpc-next-drizzle-better_auth/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@hono-orpc-next-drizzle-better_auth/auth": "workspace:*",
+    "@hono-orpc-next-drizzle-better_auth/db": "workspace:*",
+    "@hono-orpc-next-drizzle-better_auth/env": "workspace:*",
+    "@orpc/client": "catalog:",
+    "@orpc/openapi": "catalog:",
+    "@orpc/server": "catalog:",
+    "@orpc/zod": "catalog:",
+    "@types/pg": "catalog:",
+    "dotenv": "catalog:",
+    "drizzle-orm": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@hono-orpc-next-drizzle-better_auth/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
